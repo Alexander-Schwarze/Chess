@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <field id="windowTitle">
+        <type>String</type>
+        <value>Chess to Test</value>
+    </field>
+    <field id="windowWidth">
+        <type>Integer</type>
+        <value>550</value>
+    </field>
+    <field id="windowHeight">
+        <type>Integer</type>
+        <value>800</value>
+    </field>
+</metadata>
