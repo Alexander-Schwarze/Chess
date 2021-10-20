@@ -12,4 +12,28 @@
         <type>Integer</type>
         <value>800</value>
     </field>
+    <field id="menuButtonImagePvp">
+        <type>String</type>
+        <value>chess_vs_player.jpg</value>
+    </field>
+    <field id="menuButtonTextPvp">
+        <type>String</type>
+        <value>Player vs Player</value>
+    </field>
+    <field id="menuHeadlineText">
+        <type>String</type>
+        <value>Chess program</value>
+    </field>
+    <field id="appKnightImage">
+        <type>String</type>
+        <value>knight_icon.png</value>
+    </field>
+    <field id="menuButtonImagePvb">
+        <type>String</type>
+        <value>chess_vs_bot.jpg</value>
+    </field>
+    <field id="menuButtonTextPvb">
+        <type>String</type>
+        <value>Player vs Bot</value>
+    </field>
 </metadata>

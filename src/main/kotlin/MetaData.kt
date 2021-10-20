@@ -1,3 +1,4 @@
+import androidx.compose.ui.res.painterResource
 import org.w3c.dom.Element
 import org.w3c.dom.Node
 import org.xml.sax.SAXException
@@ -10,7 +11,7 @@ import kotlin.reflect.full.companionObject
 import kotlin.reflect.full.memberProperties
 
 class MetaData {
-    private val metaDataFileName = javaClass.classLoader.getResource("MetaData.xml").toURI()
+    private val metaDataFileName = javaClass.classLoader.getResource("MetaData.xml")?.toURI()
     private fun readMetaData() {
         try {
             val xmlFile = File(metaDataFileName)
@@ -63,14 +64,21 @@ class MetaData {
     }
 
      companion object {
-        //Strings
-        var windowTitle = "windowTitle"
+         // Strings
+         var windowTitle = "windowTitle"
+         var menuButtonTextPvp = "menuButtonTextPvp"
+         var menuHeadlineText = "menuHeadlineText"
+         var menuButtonTextPvb = "menuButtonTextPvb"
+         // Image names
+         var menuButtonImagePvp = "menuButtonImagePvp"
+         var appKnightImage = "appKnightImage"
+         var menuButtonImagePvb = "menuButtonImagePvb"
 
-        //Ints
+        // Ints
         var windowWidth = 800
         var windowHeight = 800
-        //Booleans
-        //Fonts
+
+        // Booleans
     }
 
     init {
